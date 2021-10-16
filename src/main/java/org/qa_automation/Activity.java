@@ -9,4 +9,8 @@ public class Activity {
 
     private String activityName;
 
+    public Activity(String activityName){
+        this.activityName = activityName;
+    }
+
 }
