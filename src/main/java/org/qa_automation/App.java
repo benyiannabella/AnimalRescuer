@@ -21,8 +21,11 @@ public class App {
 //        dog1.displayJoy();
 //        bird1.displayJoy();
 
-        Rescuer rescuer = new Rescuer("Jimmy");
-        rescuer.entertainAnimal(dog, activity2);
-        rescuer.feedAnimal(bird, food2);
+//        Rescuer rescuer = new Rescuer("Jimmy");
+//        rescuer.entertainAnimal(dog, activity2);
+//        rescuer.feedAnimal(bird, food2);
+
+        Game game =  new Game();
+        game.start();
     }
 }
