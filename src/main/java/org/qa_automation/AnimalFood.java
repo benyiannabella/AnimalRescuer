@@ -18,4 +18,9 @@ public class AnimalFood {
     public AnimalFood(String foodName){
         this.foodName= foodName;
     }
+
+    @Override
+    public String toString() {
+        return foodName;
+    }
 }

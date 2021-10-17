@@ -10,6 +10,7 @@ public class Rescuer {
     private String rescuerName;
     private double money;
 
+    public Rescuer(){}
     public Rescuer(String name) {
         this.rescuerName = name;
     }
@@ -27,8 +28,7 @@ public class Rescuer {
             if (animal.getFavoriteFood().getFoodName().equals(food.getFoodName()) && animal.getHappinessLevel() < 10) {
                 animal.setHappinessLevel(animal.getHappinessLevel() + 1);
                 System.out.println(animal.getAnimalName() + "'s happiness leve increased to " + animal.getHappinessLevel()
-                        + " because he received his favorite food "
-               );
+                        + " because he received his favorite food ");
                 return animal.getHappinessLevel();
             }
             return animal.getHungerLevel();

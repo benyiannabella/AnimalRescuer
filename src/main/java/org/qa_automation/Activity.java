@@ -13,4 +13,8 @@ public class Activity {
         this.activityName = activityName;
     }
 
+    @Override
+    public String toString() {
+        return activityName;
+    }
 }
